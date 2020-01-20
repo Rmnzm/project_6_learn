@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <!-- 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    -->
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- 
     <script src="js/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    -->
     <!-- flexboxgrid2 -->
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
 
@@ -28,143 +31,227 @@
   <body>
     <!-- Все рестораны - ссылки, каждая ссылка ведет на ресторан "Пушкин" -->
     <!-- Шапка с лого, кнопкой входа и ссылкой на корзину -->
-    <div class="container-fluid" style="box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);">
-      <div class="container">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-sm bg-white navbar-dark d-flex justify-content-between">
-            <!-- Brand/logo -->
-            <a class="navbar-brand" href="#">
-              <img src="images/logo.svg" alt="logo">
-            </a>
-
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <button type="button" class="btn btn-outline-light text-dark">Войти</button>
-              </li>
-              <li class="nav-item d-none d-sm-block" style="padding-left: 27px;">
-                <a class="nav-link" href="#"><img src="images/basket.svg" alt="basket"></a>
-              </li>
-            </ul>
-          </nav>
+    <div class="header">
+      <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box-left">
+                        <a href="#"><img src="images/logos/logo.svg" alt=""></a>
+                    </div>
+                    <div class="box-right">
+                        <div class="login">
+                            <a href="#" class="logIn">Войти</a>
+                        </div>
+                        <div class="basket">
+                            <a href="#"><img src="images/icons/basket.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <!-- Поиск по сайту -->
-    <div class="container" style="padding-top: 56px;">
-      <div class="row">
-        <div class="col-12">
-          <input class="form-control border-top-0 border-left-0 border-right-0 border-bottom rounded-0" type="text" placeholder="Поиск по кухням и ресторанам">
-        </div>
-      </div>
     </div>
-    <!-- Основной блок, со списком ресторанов и ссылками на них (картинка и название) --><!-- Блоки ресторанов, с ссылками на пушкина -->
-    <!-- Карточка ресторана Макдональдс -->
+  <!-- Поле поиска по рестонарам -->
+  <!-- TODO-->
+  <!--Цвет фона сделать, background: #F2F2F2;-->
+  <div class="input-area">
     <div class="container-fluid">
-      <div class="container" style="padding-top: 56px; padding-left: 25px; padding-right: 25px;">
-        <h3>Рестораны в Москве</h3>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="container" style="padding-top: 15px; padding-left: 25px; padding-right: 25px;">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="input">
+                        <input type="text" placeholder="Поиск по ресторанам и кухням">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="">
-              <a href="#"><img src="images/macdac.png" alt="" style="width: 365px; height: 294px;"></a>
-              <div>
-                <a href="#">Макдональдс - Газетный</a>
-                <p>₽₽ • Бургеры</p>
-                <p>25-35 мин</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-
-
-    <!-- -->
-    <!-- -->
+  </div>
+  <!-- Заголовок отражающий запрос пользователя по поиску ресторанов, в данном случае, рестораны в Москве -->
+    <div class="rest_moscow">
+        <div class="container-fluid">
+            <div class="container">
+                <h2>Рестораны в Москве</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Grid плитка ресторанов в Москве, адаптивна -->
+    <div class="main_menu">
+        <div class="container-fluid">
+            <div class="container">
+                <div>
+                    <img src="images/cards/mc.png" alt="">
+                    <div class="a">
+                        <a href="#">Макдональдс - Газетный</a>
+                    </div>
+                    <p id="p">₽₽ • Бургеры</p>
+                    <p>25 - 35 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/dimsum.png" alt="">
+                    <div class="a">
+                        <a href="#">DimSum & Co - ЦДМ</a>
+                    </div>
+                    <p id="p">₽ • Японская • Китайская • Азиатская</p>
+                    <p>40 - 50 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/dvizhok.png" alt="">
+                    <div class="a">
+                        <a href="#">ДвижОк - Манежная</a>
+                    </div>
+                    <p id="p">₽ • Американская • Европейская</p>
+                    <p>35 - 45 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/nya.png" alt="">
+                    <div class="a">
+                        <a href="#">ДвижОк - Манежная</a>
+                    </div>
+                    <p id="p">₽₽ • Вьетнамская</p>
+                    <p>30 - 40 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/tochka_dzi.png" alt="">
+                    <div class="a">
+                        <a href="#">Точка Дзы - Цветной</a>
+                    </div>
+                    <p id="p">₽₽ • Вьетнамская</p>
+                    <p>40 - 50 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/cinnabon.png" alt="">
+                    <div class="a">
+                        <a href="#">Cinnabon</a>
+                    </div>
+                    <p id="p">₽ • Выпечка • Десерты • Капкейки</p>
+                    <p>25 - 35 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/pizzelove.png" alt="">
+                    <div class="a">
+                        <a href="#">PIZZELOVE</a>
+                    </div>
+                    <p id="p">₽₽ • Пицца</p>
+                    <p>15 - 25 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/zyu_cafe.png" alt="">
+                    <div class="a">
+                        <a href="#">Zю кафе - Тверская</a>
+                    </div>
+                    <p id="p">₽₽ • Японская</p>
+                    <p>25 - 35 мин</p>
+                </div>
+                <div>
+                    <img src="images/cards/barbq_cafe.png" alt="">
+                    <div class="a">
+                        <a href="#">Bar BQ Cafe - Манежная</a>
+                    </div>
+                    <p id="p">₽₽₽ • Европейская</p>
+                    <p>30 - 40 мин</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="flogo">
+                    <a href="#"><img src="images/logos/white-logo.svg" alt=""></a>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="container-nav">
+                    <div>
+                        <a href="#">
+                            <div class="search-btn">
+                                <div class="elem1">
+                                    <div class="img-btn1">
+                                        <img src="images/icons/world.svg" alt="">
+                                    </div>
+                                    <div class="txt-btn">
+                                        <p>Русский</p>
+                                    </div>
+                                </div>
+                                <div class="elem2">
+                                    <img src="images/icons/select-arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="tag">
+                            <p class="hash1">#</p><p class="hash2">UberEats </p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon1">
+                                <a href="#"><img src="images/icons/facebook.svg" alt=""></a>
+                            </div>
+                            <div class="icon2">
+                                <a href="#"><img src="images/icons/twitter.svg" alt=""></a>
+                            </div>
+                            <div class="icon3">
+                                <a href="#"><img src="images/icons/instagram.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adb">
+                        <div class="about">
+                            <a href="#">Об UberEats</a>
+                        </div>
+                        <div class="delivery">
+                            <a href="#">Станьте партнером по доставке</a>
+                        </div>
+                        <div class="become">
+                            <a href="#">Станьте партнером-рестораном</a>
+                        </div>
+                    </div>
+                    <div class="cphf">
+                        <div class="cities">
+                            <a href="#">Все города</a>
+                        </div>
+                        <div class="prices">
+                            <a href="#">Цены</a>
+                        </div>
+                        <div class="help">
+                            <a href="#">Помощь</a>
+                        </div>
+                        <div class="faq">
+                            <a href="#">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="apps">
+                    <div class="apple">
+                        <a href="#"><img src="images/apps/apple.png" alt=""></a>
+                    </div>
+                    <div class="android">
+                        <a href="#"><img src="images/apps/android.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="copyright">
+                    <div class="Uber">
+                        <a href="#">© 2017 Uber Technologues Inc.</a>
+                    </div>
+                    <div class="privacy">
+                        <a href="#">Обработка персональных данных</a>
+                    </div>
+                    <div class="term">
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                </div>
+                <!--Кнопка TODO -->
+            </div>
+        </div>
+    </div>
     <!-- -->
     <!-- -->
   </body>

@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background: #262626;
+}
+
+.flogo {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.hr {
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.container-nav {
+    padding-top: 2em;
+}
+
+.search-btn {
+    width: 227px;
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem1 {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.elem2 {
+    padding-right: 1em;
+}
+
+.txt-btn {
+    padding-left: 1em;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.tag {
+    padding-top: 2em;
+    display: flex;
+}
+
+.hash1 {
+    color: #49A144;
+    font-size: 16px;
+}
+
+.hash2 {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.icons {
+    padding-top: 1em;
+    display: flex;
+}
+
+.icon1, .icon2, .icon3 {
+    padding-right: 0.5em;
+}
+
+.adb, .cphf {
+    padding-top: 1em;
+}
+
+.about, .delivery, .become, .cities, .prices, .help, .faq {
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-bottom: 2em;
+}
+
+.container-nav {
+    padding-top: 2em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.apps {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.apple {
+    padding-right: 2em;
+}
+
+.Uber, .privacy, .term {
+    color: #FFFFFF;
+    font-size: 13px
+}
+
+.copyright {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+

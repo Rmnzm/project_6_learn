@@ -258,4 +258,8 @@ input:active, :hover, :focus {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+/*Pushkin page*/
 
+.restaurant-main {
+    width: 2000px;
+}

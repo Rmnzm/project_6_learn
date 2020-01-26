@@ -14,6 +14,12 @@ font-family: 'Roboto', sans-serif;
 a,input,p,h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto', sans-serif;
 }
+/*TODO*/
+a {
+    text-decoration: none;
+    line-height: 0;
+    color: #000000;
+  }
 
 /* Шапка*/
 
@@ -260,6 +266,86 @@ input:active, :hover, :focus {
 
 /*Pushkin page*/
 
-.restaurant-main {
-    width: 2000px;
-}
+/*RESTAURANT HEADER*/
+
+/*RESTAURANT NAVIGATION*/
+
+.restaurant-navbar {
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+  }
+  
+  ul {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  li {
+    display: inline;
+    cursor: pointer;
+    color: #626262;
+    padding-right: 1em;
+  }
+  
+  .restaurant-navigation-list {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    text-align: center;
+  }
+  
+  .active {
+    color: #327430;
+  }
+  
+/*RESTAURANT MENU FOOD*/
+
+.food5, .food4, .food3, .food2, .food1, .food {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .food-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+  
+  .food-price {
+    padding-left: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .food-description {
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+  
+  /*TODO*/
+  .hid {
+    visibility: hidden;
+  }
+  
+  #grid-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(470px, 1fr)); 
+    grid-template-rows: 1fr 1fr; 
+    grid-gap: 1em; 
+  }
+  
+  .rest-option1 > .container > .option1 {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+  
+  .food5:hover {
+    background: rgba(117, 117, 117, 0.04);
+    mix-blend-mode: normal;
+  }
+
+  .rest-menu {
+      padding-bottom: 5em;
+  }

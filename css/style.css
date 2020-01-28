@@ -271,44 +271,44 @@ input:active, :hover, :focus {
 .restaurant-header {
     background-image: url(images/pushkin/restaurant-main.png);
     background-size: cover;
-  }
+}
   
-  .restaurant-header > .container {
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-  
-  .restaurant-card {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
-    border-radius: 2px;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-  
-  .text-description {
-    color: #626262;
-    display: flex;
-    align-self: center;
-  }
-  
-  .time-deliver {
-    background: #262626;
-    border-radius: 16px;
-    padding: 0.3em;
-    color: #ffffff;
-  }
-  
-  .card-title {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .card-text {
-    padding-top: 4em;
-    display: flex;
-    justify-content: space-around;
-  }
+.restaurant-header > .container {
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+.restaurant-card {
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+border-radius: 2px;
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+.text-description {
+color: #626262;
+display: flex;
+align-self: center;
+}
+
+.time-deliver {
+background: #262626;
+border-radius: 16px;
+padding: 0.3em;
+color: #ffffff;
+}
+
+.card-title {
+display: flex;
+justify-content: space-around;
+}
+
+.card-text {
+padding-top: 4em;
+display: flex;
+justify-content: space-around;
+}
 
 /*RESTAURANT NAVIGATION*/
 
@@ -384,6 +384,31 @@ input:active, :hover, :focus {
   }
   
   .food5:hover {
+    background: rgba(117, 117, 117, 0.04);
+    mix-blend-mode: normal;
+  }
+
+  .food4:hover {
+    background: rgba(117, 117, 117, 0.04);
+    mix-blend-mode: normal;
+  }
+
+  .food3:hover {
+    background: rgba(117, 117, 117, 0.04);
+    mix-blend-mode: normal;
+  }
+
+  .food2:hover {
+    background: rgba(117, 117, 117, 0.04);
+    mix-blend-mode: normal;
+  }
+
+  .food1:hover {
+    background: rgba(117, 117, 117, 0.04);
+    mix-blend-mode: normal;
+  }
+
+  .food:hover {
     background: rgba(117, 117, 117, 0.04);
     mix-blend-mode: normal;
   }
